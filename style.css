@@ -1,0 +1,105 @@
+body, html{
+    background-color: hsl(217, 54%, 11%);
+    font-size: 16px;
+}
+
+h1, p, img, a{
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    max-width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    padding: 1.5em;
+    margin: 40px auto;
+    border-radius: 2%;
+}
+
+.card::hover{
+    box-shadow: hsl(215, 51%, 70%);
+}
+
+.card-img{
+    width: 100%;
+    background-color: aqua;
+    border-radius: 2%;
+}
+
+.img-link {
+    background-color: aqua;
+    background-image: url("images/icon-view.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 1;
+    border-radius: 2%;
+    margin: 0;
+    height: 350px;
+}
+
+.card-info{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid hsl(215, 51%, 70%);
+}
+
+.sub-info, .author-info{
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-family: 'Outfit', sans-serif;
+    margin: 1em 0 ;
+}
+
+.card-dscrp, .days-left{
+    line-height: 1.4em;
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 51%, 70%);
+}
+
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+a:hover{
+    color:hsl(178, 100%, 50%) ;
+}
+
+.icon{
+    margin: 0 10px 0 0;
+}
+
+
+.crypto-value{
+    color: hsl(178, 100%, 50%);
+}
+
+.author-icon{
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.author-name {
+    color: hsl(215, 51%, 70%);
+}
+
+.author-name span{
+    color: white;
+}
+
+
+.card-img:hover{ 
+    opacity: 0.4 ; 
+}
+
+
